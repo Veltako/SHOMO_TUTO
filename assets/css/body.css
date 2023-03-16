@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Lemon Milk bold italic';
+    src: url('../font/LEMONMILK-BoldItalic.otf');
+}
+@font-face {
+    font-family: 'Lemon Milk regular';
+    src: url('../font/LEMONMILK-Regular.otf');
+}
+:root{
+    --orange: #F85E19;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lemon Milk bold italic';
+}
+*::selection{
+    background: var(--orange);
+}
+::-webkit-scrollbar{
+    background: var(--orange);
+}
+body{
+    background: linear-gradient(117.29deg, #1B0067 0%, #1B0067 0.01%, #07001D 100.25%);
+}
